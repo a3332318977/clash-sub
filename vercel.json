@@ -6,7 +6,10 @@
       "use": "@vercel/node"
     }
   ],
-  "env": {
-    "YARN_REGISTRY": "https://registry.yarnpkg.com"
+  "build": {
+    "env": {
+      "YARN_REGISTRY": "https://registry.yarnpkg.com",
+      "NPM_REGISTRY": "https://registry.npmjs.org"
+    }
   }
 }
